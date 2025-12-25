@@ -6,14 +6,14 @@
 }
 
 body {
-  background-color: #f1f1f1;
-  color: #000;
+ 
+ 
 }
 
 /* NAVBAR */
 .navbar {
   height: 70px;
-  background: #ffffff;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
