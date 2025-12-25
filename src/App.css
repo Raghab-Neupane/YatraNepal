@@ -35,12 +35,14 @@ body,
 }
 
 .logo img {
-  height: 43px;
+  margin-top: 16px;
+  height: 60px;
   width: auto;
   display: block;
 }
 
 .Links {
+  margin-top: 19px;
   list-style: none;
   padding-right: 10px;
   margin: 0;
