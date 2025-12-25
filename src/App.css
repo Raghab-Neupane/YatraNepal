@@ -28,15 +28,23 @@ body,
   display: flex;
   align-items: center;
 }
-
-.nav-links a {
-  margin-left: 32px;
-  text-decoration: none;
-  font-size: 15px;
-  color: #000000;
-  font-weight: 400;
+.logo img {
+  height: 10px;   /* or 40px */
+  width: auto;
 }
 
+.Links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 32px;
+}
+
+.Links a {
+  text-decoration: none;
+  color: #000;
+}
 
 .hero {
   height: calc(100vh - 72px);
@@ -68,9 +76,6 @@ body,
   color: #333333;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
 @media (max-width: 768px) {
   .navbar {
     padding: 0 24px;
