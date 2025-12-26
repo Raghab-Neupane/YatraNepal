@@ -1,4 +1,8 @@
 import React from "react";
+import Mustang from "../assets/mustag.webp";
+import mountaintrek from "../assets/mountaintrek.webp";
+import Everest from "../assets/mountain.webp";
+import Homestay from "../assets/homestay.webp";
 
 const Package: React.FC = () => {
     return (
@@ -6,6 +10,7 @@ const Package: React.FC = () => {
             <h2>Our <span>Packages</span></h2>
             <div className="package-container">
                 <div className="package-card">
+                        <img className="image" src={Mustang} alt="Mustang" />
                     <div className="package-text">
                         <h3>Mustang</h3>
                         <p>
@@ -17,6 +22,7 @@ const Package: React.FC = () => {
 
                 <div className="package-card">
                     <div className="package-text">
+                        <img className="image" src={mountaintrek} alt="Mountaining" />
                         <h3>Mountaining</h3>
                         <p>
                             High-altitude treks and thrilling mountain experiences.
@@ -27,6 +33,7 @@ const Package: React.FC = () => {
 
                 <div className="package-card">
                     <div className="package-text">
+                        <img className="image" src={Everest} alt="Everest Climbing" />
                         <h3>Everest Climbing</h3>
                         <p>
                             Guided Everest expeditions with expert support.
@@ -37,6 +44,7 @@ const Package: React.FC = () => {
 
                 <div className="package-card">
                     <div className="package-text">
+                        <img className="image" src={Homestay} alt="Home Stays" />
                         <h3>Home Stays</h3>
                         <p>
                             Authentic local living in the Himalayas.
