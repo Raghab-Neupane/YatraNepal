@@ -1,11 +1,11 @@
 import React from "react";
 
-const Services: React.FC = () => {
+const Package: React.FC = () => {
   return (
-    <section id="Packages" className="services-section">
+    <section id="Packages" className="package-section">
         <h2 className="section-title">Our <span>Packages</span></h2>
-        <div className="services-container">
-            <div className="service-card">
+        <div className="package-container">
+            <div className="package-card">
                 <h3>Mustang</h3>
                 <p>
                     Experience the breathtaking landscapes and rich culture of Mustang
@@ -13,7 +13,7 @@ const Services: React.FC = () => {
                 </p>
             </div>
 
-            <div className="service-card">
+            <div className="package-card">
                 <h3>Mountain Adventures</h3>
                 <p>
                     Conquer the majestic peaks and immerse yourself in the thrill of
@@ -21,7 +21,7 @@ const Services: React.FC = () => {
                 </p>
             </div>
 
-            <div className="service-card">
+            <div className="package-card">
                 <h3>Everest Climbing</h3>
                 <p>
                     Experience the ultimate adventure with our guided Everest climbing
@@ -29,7 +29,7 @@ const Services: React.FC = () => {
                 </p>
             </div>
 
-            <div className="service-card">
+            <div className="package-card">
                 <h3>Home Stays</h3>
                 <p>
                     Immerse yourself in local culture and hospitality with our curated
@@ -41,4 +41,4 @@ const Services: React.FC = () => {
   );
 };
 
-export default Services;
+export default Package;
