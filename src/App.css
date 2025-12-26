@@ -149,6 +149,9 @@ body,
   font-size: 27px;
   margin-bottom: 16px;
 }
+.package-text {
+  margin-top: 170px;
+}
 
 .package-container .package-card {
   background: #d8d8d8;
