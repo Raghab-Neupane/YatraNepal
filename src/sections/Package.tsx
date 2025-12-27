@@ -1,4 +1,4 @@
-import React from "react";
+
 import Mustang from "../assets/mustag.webp";
 import mountaintrek from "../assets/mountaintrek.webp";
 import Everest from "../assets/mountain.webp";
@@ -15,8 +15,7 @@ const Package: React.FC = () => {
                         <img className="image" src={Mustang} alt="Mustang" />
                         <div className="package-text">
                             <h3>Mustang</h3>
-                            <p>
-                                Ancient culture, dramatic landscapes, and timeless Himalayan beauty.
+                            <p> Ancient culture, dramatic landscapes, and timeless Himalayan beauty.
                                 A journey into Nepal's hidden kingdom.
                             </p>
                         </div>
