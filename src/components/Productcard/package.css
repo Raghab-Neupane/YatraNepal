@@ -1,12 +1,15 @@
 .package-section {
-    padding-top: -120px;
-    padding-left: 20px;
-    z-index: 6;
+  position: relative;
+  margin-top: -120px;   /* pulls section upward */
+  padding-top: 160px;   /* space for content */
+  background: #ffffff;
+  z-index: 1;
+  padding-left: 40px;
 }
 
 .package-section h2 {
     font-size: 88px;
-    margin-top: 10px;
+    margin-top: -50px;
    
 }
 
@@ -24,6 +27,7 @@
   border-radius: 5px;
   padding: 16px;
   transition: transform 0.3s, box-shadow 0.3s;
+  
 }
 
 .package-card:hover {
@@ -39,8 +43,9 @@
 }
 
 .package-card__text h3 {
-  margin-top: 14px;
-  font-size: 22px;
+  margin-top: 10px;
+  font-size: 27px;
+  margin-bottom: 16px;
 }
 
 .package-card__text p {
@@ -49,20 +54,56 @@
   color: #555;
 }
 
-.horizontal-scroll {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
 .scroll-viewport {
   display: flex;
   gap: 32px;
+
   overflow-x: auto;
+  overflow-y: visible;
+
   scroll-behavior: smooth;
-  scrollbar-width: none;
-}
-.scroll-viewport::-webkit-scrollbar {
-  display: none;
+
+  scrollbar-width: none;        /* Firefox */
 }
 
+.horizontal-scroll {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.horizontal-scroll button {
+  z-index: 10;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;                /* 🔥 ABOVE SCROLL */
+  
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  cursor: pointer;
+
+  font-size: 22px;
+}
+
+.scroll-btn.left {
+  left: 10px;
+}
+
+.scroll-btn.right {
+  right: 10px;
+}
