@@ -15,7 +15,7 @@ const PackageCard: React.FC<PackageCardProps> = ({
     <div className="package-card">
       <img className="image" src={image} alt={title} />
 
-      <div className="package-text">
+      <div className="package-card__text">
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
