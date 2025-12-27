@@ -17,10 +17,15 @@
     color: #17b9cb;
 }
 
+.package-container {
+    display: flex;
+    gap: 32px;
+}
+
 .package-card {
   margin-top: 64px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  flex: 0 0 320px;
+  flex-direction: column;
   height: 340px;
   width: 320px;
   background: #f7f7f7;
