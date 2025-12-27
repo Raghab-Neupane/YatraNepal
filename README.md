@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-# Health_care_app
-Landing page for daignosis lab
+
+# Tirip Nepal
+Travel Website
 =======
 # React + TypeScript + Vite
 
