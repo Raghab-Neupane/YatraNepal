@@ -2,26 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Albert Sans"  , sans-serif;
+
 }
 
 
-.navbar {
-  height: 70px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 80px;
-}
-
-
-.nav-links a {
-  margin-left: 32px;
-  text-decoration: none;
-  color: #000;
-  font-size: 15px;
-}
 
 
 .hero {
@@ -40,9 +24,7 @@
   line-height: 1.2;
 }
 
-.hero h1 span {
-  color: #7bdc3c;
-}
+
 
 .hero p {
   max-width: 720px;
