@@ -1,3 +1,5 @@
+import "./package.css";
+
 interface PackageCardProps {
   image: string;
   title: string;
