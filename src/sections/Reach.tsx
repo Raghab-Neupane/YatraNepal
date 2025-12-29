@@ -1,5 +1,6 @@
 import React from 'react'
 import nepal from "../assets/nepal.png";
+import StatCard from '../components/Statcard';
 
 const Reach = () => {
   return (
@@ -10,7 +11,10 @@ const Reach = () => {
         <p>
           We have a strong presence in Nepal, with numerous projects and initiatives aimed at improving the lives of its citizens.
         </p>
-        <img className='mapofnepal' src={nepal} alt="Nepal Map" />
+        <div className="body">
+          <img className='mapofnepal' src={nepal} alt="Nepal Map" />
+          <StatCard />
+        </div>
       </div>
     </div>
   )

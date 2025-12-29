@@ -262,11 +262,16 @@ body,
 
 .mapofnepal {
   margin-top: 120px;
-  padding-top: 60px;
+  padding-top: 0px;
   width: 400%;
   height: auto;
   max-width: 800px;
   margin-top: 32px;
+}
+
+.Reach-content body {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 768px) {
