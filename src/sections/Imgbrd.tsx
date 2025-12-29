@@ -1,17 +1,17 @@
 import Imageshow from "../components/Imageshow.tsx";
-import two from "../assets/two.webp";
+import two from "../assets/two.jpg";
 
 
 
 const Imgbrd: React.FC = () => {
   return (
-    <>
+    <div className="Imgbrd">
       <Imageshow
         image={two}
-        title="Image Title"
-        description="Image Description"
+        title="Live Life."
+        description="be yourself"
       />
-    </>
+    </div>
   )
 }
 

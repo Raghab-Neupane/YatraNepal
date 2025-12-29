@@ -1,4 +1,3 @@
-import React from 'react'
 import nepal from "../assets/nepal.png";
 import StatCard from '../components/Statcard';
 

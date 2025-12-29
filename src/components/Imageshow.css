@@ -1,0 +1,23 @@
+.Imageshowcase{
+    padding-left: 80px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border-radius: 19px;
+}
+.Imageshowcase img {
+    width: 700px;
+    height: auto;
+    border-radius: 19px;
+}
+.Imageshowcase-text {
+    text-align: center;
+    margin-top: 100px;
+}
+.Imageshowcase-text h2 {
+    color: #179bc1;
+    font-size: 76px;
+    margin-bottom: 16px;
+}
