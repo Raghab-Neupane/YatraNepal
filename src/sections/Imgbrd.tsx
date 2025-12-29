@@ -1,4 +1,5 @@
 import Imageshow from "../components/Imageshow.tsx";
+import two from "../assets/two.webp";
 
 
 
@@ -6,7 +7,7 @@ const Imgbrd: React.FC = () => {
   return (
     <>
       <Imageshow
-        image="../assets/two.webp"
+        image={two}
         title="Image Title"
         description="Image Description"
       />
