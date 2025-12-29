@@ -233,14 +233,31 @@ body,
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.9);
 }
+.Reach-page {
+  padding-left: 40px;
+  padding-top: 40px;
+  height: 100%;
+}
 
-.Reach {
+.Reach-page h2 {
   font-family: "Albert Sans", sans-serif;
   font-size: 88px;
   font-weight: 700;
-  height: 230px;
-  padding-left: 40px;
-  padding-top: 40px;
+  margin-bottom: 60px;
+}
+
+.Reach-page span {
+  color: #17b9cb;
+}
+
+.Reach-content p {
+  display: flex;
+  /* margin-right: 380px; */
+  font-family: "Albert Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.9;
 }
 
 @media (max-width: 768px) {
