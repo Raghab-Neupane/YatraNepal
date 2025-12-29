@@ -4,6 +4,7 @@ import "./App.css";
 import Package from "./sections/Package.tsx";
 import Reach from "./sections/Reach.tsx";
 import Footer from "./Footer.tsx";
+import Imgbrd from "./sections/Imgbrd.tsx";
 
 
 
@@ -13,6 +14,7 @@ const App: React.FC = () => {
       <Navbar />
       <Hero />
       <Package />
+      <Imgbrd />
       <Reach />
       <Footer />
     </>
