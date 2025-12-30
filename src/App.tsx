@@ -5,6 +5,7 @@ import Package from "./sections/Package.tsx";
 import Reach from "./sections/Reach.tsx";
 import Footer from "./sections/Footer.tsx";
 import Imgbrd from "./sections/imgbrd.tsx";
+import Hotels from "./sections/Hotels.tsx";
 
 
 
@@ -15,6 +16,7 @@ const App: React.FC = () => {
   <Hero />
   <Package />
   <Imgbrd />
+  <Hotels />
   <Reach />
   <Footer />
 </>

@@ -240,6 +240,21 @@ body,
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.9);
 }
+
+.hotel {
+  padding-left: 40px;
+  margin-top: 130px;
+}
+
+.hotel h2 {
+  font-size: 88px;
+  margin-bottom: 60px;
+}
+
+.hotel span {
+  color: #1792cb;
+}
+
 .Reach-page {
   
   padding-left: 40px;
@@ -306,7 +321,7 @@ body,
   justify-content: center;
   margin: 0 19px 0 34px;
   padding: 20px;
-  background: #062c31;
+  background: #1792cb;
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
   width: 95%;

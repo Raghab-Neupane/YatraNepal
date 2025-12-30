@@ -9,7 +9,7 @@ const Imgbrd: React.FC = () => {
       <Imageshow
         image={two}
         title="Live Life."
-        description="be yourself"
+        description="-be yourself"
       />
     </div>
   )
