@@ -3,8 +3,8 @@ import Hero from "./sections/Hero.tsx";
 import "./App.css";
 import Package from "./sections/Package.tsx";
 import Reach from "./sections/Reach.tsx";
-import Footer from "./Footer.tsx";
-import Imgbrd from "./sections/Imgbrd.tsx";
+import Footer from "./sections/Footer.tsx";
+import Imgbrd from "./sections/imgbrd.tsx";
 
 
 
@@ -12,12 +12,12 @@ const App: React.FC = () => {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Package />
-      <Imgbrd />
-      <Reach />
-      <Footer />
-    </>
+  <Hero />
+  <Package />
+  <Imgbrd />
+  <Reach />
+  <Footer />
+</>
   );
 };
 

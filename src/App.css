@@ -12,9 +12,12 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: clip;
+
 }
 
 .navbar {
+  
   position: absolute;
   top: 0%;
   left: 0;
@@ -27,6 +30,7 @@ body,
   justify-content: space-between;
   padding: 0px 60px 0px 80px;
   z-index: 10;
+  overflow: clip;
 }
 
 .logo {
@@ -92,6 +96,9 @@ body,
 }
 
 .hero-tittle h1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin-top: 100px;
   position: relative;
   z-index: 3;
@@ -209,8 +216,8 @@ body,
   border-radius: 999px;
   border: none;
 
-  background: #17b9cb; /* matches your hero accent */
-  color: #000;
+  background: #1792cb; /* matches your hero accent */
+  color: #ffffff;
 
   font-size: 16px;
   font-weight: 600;
@@ -221,7 +228,7 @@ body,
 
 .booking-button button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px #17b9cb
+  box-shadow: 0 10px 20px #1792cb;
 }
 
 
@@ -234,9 +241,12 @@ body,
   color: rgba(255, 255, 255, 0.9);
 }
 .Reach-page {
+  
   padding-left: 40px;
   padding-top: 40px;
   height: 100%;
+  margin-bottom: 90px;
+
 }
 
 .Reach-page h2 {
@@ -247,7 +257,7 @@ body,
 }
 
 .Reach-page span {
-  color: #17b9cb;
+  color: #1792cb;
 }
 
 .Reach-content p {
@@ -279,6 +289,7 @@ body,
   height: auto;
   max-width: 800px;
   margin-top: 10px;
+  
 }
 
 .reach-stats {

@@ -14,7 +14,7 @@
 }
 
 .package-section span {
-    color: #17b9cb;
+    color: #1792cb;
 }
 
 .package-container {
@@ -30,7 +30,7 @@
   flex: 0 0 320px;
   flex-direction: column;
   height: 375px;
-  width: 320px;
+  width: 720px;
   background: #f4f4f4be;
   border-radius: 5px;
   padding: 16px;
@@ -69,7 +69,7 @@
   margin-top: 25px;
   align-items: right;
   font-size: 17px;
-  color: #17b9cb;
+  color: #1792cb;
   cursor: pointer;
 }
 
