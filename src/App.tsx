@@ -4,7 +4,7 @@ import "./App.css";
 import Package from "./sections/Package.tsx";
 import Reach from "./sections/Reach.tsx";
 import Footer from "./sections/Footer.tsx";
-import Imgbrd from "./sections/imgbrd.tsx";
+import Imgbrd from "./sections/Imgbrd.tsx";
 import Hotels from "./sections/Hotels.tsx";
 
 

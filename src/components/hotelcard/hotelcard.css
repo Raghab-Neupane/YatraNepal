@@ -1,9 +1,29 @@
+.hotel {
+  padding-left: 40px;
+  margin-top: 130px;
+  position: relative;
+}
+
+.hotel h2 {
+  font-size: 88px;
+  margin-bottom: 60px;
+}
+
+.hotel span {
+  color: #1792cb;
+}
+
+.hotel-cards-container {
+  display: flex;
+  gap: 32px;
+  padding: 16px 0;
+  width: max-content;
+}
+
 .hotel-card {
     margin-top: 30px;
     background-color: #1792cb0f;
   border-radius: 19px;
-  display: flex;
-  flex-direction: column;
   transition: transform 0.2s;
   width: 340px;
   height: 400px;
@@ -43,4 +63,59 @@
   padding-right: 19px;
   font-weight: bold;
   width: 100%;
+  cursor: pointer;
+}
+
+.scroll-viewport {
+  display: flex;
+  gap: 32px;
+
+  overflow-x: auto;
+  overflow-y: visible;
+
+  scroll-behavior: smooth;
+
+  scrollbar-width: none;        
+}
+
+.horizontal-scroll {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.horizontal-scroll button {
+  z-index: 10;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;                
+  
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  cursor: pointer;
+
+  font-size: 22px;
+}
+
+.scroll-btn.left {
+  left: 10px;
+}
+
+.scroll-btn.right {
+  right: 10px;
 }

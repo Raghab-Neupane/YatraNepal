@@ -14,8 +14,8 @@ const Package: React.FC = () => {
       <h2>
         Our <span>Packages</span>
       </h2>
-    <HorizontalScroll className="package-scroll">
-
+    <HorizontalScroll>
+        
       <div className="package-container">
 
         <PackageCard

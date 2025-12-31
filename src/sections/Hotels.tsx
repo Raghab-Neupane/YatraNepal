@@ -10,8 +10,8 @@ const Hotels = () => {
     <div className="hotel">
         <h2>Partnered <span>Hotels</span></h2>
         <HorizontalScroll>
-
-          <Hc
+            <div className='hotel-cards-container'>
+                <Hc
             image={Kathmandu}
             title="Kathmandu Marriott Hotel"
             description="A luxurious stay in the heart of Kathmandu with world-class amenities."
@@ -34,6 +34,14 @@ const Hotels = () => {
             title="Hotel Lo Mustang Resort"
             description="Experience the unique culture and stunning landscapes of Mustang."
           />
+
+          <Hc
+            image={Mustang}
+            title="Hotel Lo Mustang Resort"
+            description="Experience the unique culture and stunning landscapes of Mustang."
+          />
+
+            </div>
 
         </HorizontalScroll>
     </div>
