@@ -411,21 +411,9 @@ body,
 }
 
 .banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 90px;
+  margin-left: 80px;
+  margin-bottom: 30px;
 }
-
-.banner img {
-  width:1090px;
-  height: auto;
-  border-radius: 20px;
-  border-top-left-radius: 20px;
-  
-}
-
 
 @media (max-width: 768px) {
   .navbar {

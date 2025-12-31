@@ -8,7 +8,7 @@ const Reach = () => {
 
       <div className='Reach-content'>
         <p>
-          We have a strong presence in Nepal, with numerous projects and initiatives aimed at improving the lives of its citizens.
+          Look at the view of the blue-dots where we have contacted our travellers !
         </p>
         <div className="body">
           <img className='mapofnepal' src={nepal} alt="Nepal Map" />
