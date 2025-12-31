@@ -10,6 +10,7 @@ import Footer from "./sections/Footer.tsx";
 import Imgbrd from "./sections/Imgbrd.tsx";
 import Hotels from "./sections/Hotels.tsx";
 import Banner from "./sections/Banner.tsx";
+import Aboutus from "./sections/Aboutus.tsx";
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -28,6 +29,7 @@ const App: React.FC = () => {
       <Imgbrd />
       <Hotels />
       <Banner />
+      <Aboutus />
       <Footer />
     </>
   );
