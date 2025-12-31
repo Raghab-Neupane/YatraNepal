@@ -440,3 +440,113 @@ body,
     width: 100%;
   }
 }
+/* ---------- Global motion tuning ---------- */
+* {
+  scroll-behavior: smooth;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  animation: slideDown 0.8s ease forwards;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* ---------- Hero text ---------- */
+.hero-tittle h1 {
+  animation: fadeUp 1s ease 0.4s forwards;
+  opacity: 0;
+}
+
+.hero-subtittle p {
+  animation: fadeUp 1s ease 0.7s forwards;
+  opacity: 0;
+}
+
+@keyframes fadeUp {
+  from {
+    transform: translateY(24px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* ---------- Booking card entrance ---------- */
+.Booking-card {
+  animation: liftIn 1s ease 0.1s forwards;
+  opacity: 0;
+}
+
+@keyframes liftIn {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* ---------- Inputs interaction ---------- */
+.search input,
+.no-of-people input {
+  transition: background 0.25s ease, box-shadow 0.25s ease;
+}
+
+.search input:focus,
+.no-of-people input:focus {
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(23,146,203,0.25);
+}
+
+/* ---------- Buttons ---------- */
+.search button {
+  transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.search button:hover {
+  background: #dfe4ea;
+  transform: translateY(-1px);
+}
+
+/* ---------- Section headers ---------- */
+.hotel h2,
+.Reach-page h2 {
+  animation: fadeUp 1s ease forwards;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ---------- Footer links micro-interaction ---------- */
+.footer__links a {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.footer__links a:hover {
+  transform: translateY(-2px);
+}
