@@ -1,9 +1,12 @@
 import HorizontalScroll from '../components/HorizontalScroll';
-import Hc from '../components/hotelcard/hc'
+import Hc from '../components/hotelcard/hc';
 import Pokhara from '../assets/hotels_image/Pokhara.webp';
 import Kathmandu from '../assets/hotels_image/Kathmandu.webp';
 import Lumbini from '../assets/hotels_image/HotelLumbiniHeritage.jpg';
-import Mustang from '../assets/hotels_image/Lo_Mustang_Resort.jpg'
+import Mustang from '../assets/hotels_image/Lo_Mustang_Resort.jpg';
+import Pkh from '../assets/hotels_image/LakeViewResort.jpg';
+import PK from '../assets/hotels_image/Himalayan Front Hotel.jpg';
+import ktm from '../assets/hotels_image/Hotel Himalayan.jpg'
 
 const Hotels = () => {
   return (
@@ -35,11 +38,23 @@ const Hotels = () => {
             description="Experience the unique culture and stunning landscapes of Mustang."
           />
 
-          <Hc
-            image={Mustang}
-            title="Hotel Lo Mustang Resort"
-            description="Experience the unique culture and stunning landscapes of Mustang."
-          />
+            <Hc
+                image={Pkh}
+                title="Hotel Lake View Resort"
+                description="Experience the serene beauty of the lakes with us."
+            />
+
+            <Hc
+                image={PK}
+                title="Hotel Himalayan Front"
+                description="Enjoy breathtaking views of the lakeside pokhara from your room."
+            />
+
+            <Hc
+                image={ktm}
+                title="Hotel Himalaya"
+                description="Experience the tranquility and beauty of the Kathmandu city."
+            />
 
             </div>
 
