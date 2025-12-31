@@ -11,6 +11,7 @@ import Imgbrd from "./sections/Imgbrd.tsx";
 import Hotels from "./sections/Hotels.tsx";
 import Banner from "./sections/Banner.tsx";
 import Aboutus from "./sections/Aboutus.tsx";
+import WhatsApp from "./components/whatsapp/WhatsApp.tsx";
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -31,6 +32,7 @@ const App: React.FC = () => {
       <Banner />
       <Aboutus />
       <Footer />
+      <WhatsApp />
     </>
   );
 };
